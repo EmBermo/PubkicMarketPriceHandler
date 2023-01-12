@@ -23,4 +23,4 @@ The class FXServlet, package es.bermo.emilio.rest, pretends to be the rest endpo
 ## Write a suitable test that gets the latest price
 Search for testSubscriber5 in SubsciberTests. Receives multiple prices for the same ccy pair but only stores the most recent one, after commission is applied. 
 
-The result is printed on the test console.
+The result is printed out on the test console.
