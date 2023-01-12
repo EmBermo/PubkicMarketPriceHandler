@@ -1,13 +1,16 @@
 # TASKS
 ## A subscriber to listen to the market prices. 
 You can assume the feed is coming from a messaging system where all you have to do is implement an interface, e.g. void onMessage(String message).
-### Assumption:
+### Assumptions:
 Instead of implement interface onMessage(String message). Interface onMessage(Message message) was selected due to it fits better with Java EE 7 Technologies. Specifically because to provide the solution Java Message Service API 2.0 was selected. 
 ```
 Find the Subscriber class in the package es.bermo.emilio.subscriber 
 #BUILD
 Find a good build for the Subscriber in the class FXServlet, package es.bermo.emilio.rest.
 ```
+Only EUR/USD, GBP/USD & EUR/JPY are considered valid pairs.
+
+For similar reasons only consider valid Zone as "Europe/London".
 ## With an incoming price, process each with a margin 
 (add commission) function, assume it is simply  -0.1% on bid, +0.1% on ask (subtract from bid, add to ask).
 ```
