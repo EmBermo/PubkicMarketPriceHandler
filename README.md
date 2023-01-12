@@ -2,7 +2,7 @@
 ## A subscriber to listen to the market prices. 
 You can assume the feed is coming from a messaging system where all you have to do is implement an interface, e.g. void onMessage(String message).
 ### Assumption:
-Instead of implement interface onMessage(String message). Interface onMessage(Message message) was selected due to it fits better with Java EE 7 Technologies. Specifically, to provide the solution, Java Message Service API 2.0 was used. 
+Instead of implement interface onMessage(String message). Interface onMessage(Message message) was selected due to it fits better with Java EE 7 Technologies. Specifically because to provide the solution Java Message Service API 2.0 was selected. 
 ```
 Find the Subscriber class in the package es.bermo.emilio.subscriber 
 #BUILD
