@@ -18,4 +18,6 @@ Find a good build for the ClientPriceFromCSVString in the method onMessage of th
 ## Publish the adjusted price to REST endpoint
 The class FXServlet, package es.bermo.emilio.rest, pretends to be the rest endpoint. 
 ## Write a suitable test that gets the latest price
-Look for the testSubscriber5 into the SubsciberTests. It receives several prices for the same ccy pair but only stores the most recent one, after applying the commission. The result is printed out to the test console.
+Search for testSubscriber5 in SubsciberTests. Receives multiple prices for the same ccy pair but only stores the most recent one, after commission is applied. 
+
+The result is printed on the test console.
